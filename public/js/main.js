@@ -8,7 +8,7 @@ const { username, room } = Qs.parse(location.search, {
   ignoreQueryPrefix: true
 });
 
-const socket = io('https://happy-albattani-6a00e9.netlify.app');
+const socket = io('https://upbeat-nobel-8c9bba.netlify.app');
 
 // Join chatroom
 socket.emit('joinRoom', { username, room });
